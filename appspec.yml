@@ -3,8 +3,3 @@ os: windows
 files:
   - source: /
     destination: /inetpub/wwwroot
-hooks: 
-  ApplicationStart:
-    - location: index.html
-      timeout: 300
-      runas: root  
